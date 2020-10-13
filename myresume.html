@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: green;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+
+.main {   
+  flex: 70%;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.outer {
+  border: 1px solid black;
+}
+
+.box {
+  padding: 5px;
+  width: calc(100%);
+  background-color: purple;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="row" style="border :solid black 3px">
+  <div class="side" style="border :solid black 1px">
+    <h2>Dimitris Kravaris</h2>
+    <img src="me.png" width="100%" height="300px">
+    <p>Designer</p>
+    <p>Living in Volos,Greece</p>
+    <p>mail: dkravaris@uth.gr</p>
+    <br>
+    <h3>Skills</h3>
+    <p>Adobe Photoshop</p>
+    <div class = "outer">
+      <div class = "box" style ="width:70%;"></div>
+    </div>
+    <br>
+    <p>Photography</p>
+    <div class = "outer">
+      <div class = "box" style ="width:30%;"></div>
+    </div>
+    <br>
+    <p>Media</p>
+    <div class = "outer">
+      <div class = "box" style ="width:80%;"></div>
+    </div>
+    <br>
+    <h3>Languages</h3>
+    <p>Greek</p>
+    <div class = "outer">
+      <div class = "box" style ="width:100%;"></div>
+    </div>
+    <br>
+    <p>English</p>
+    <div class = "outer">
+      <div class = "box" style ="width:80%;"></div>
+    </div><br>
+  </div>
+  <div class="main" style="border :solid black 1px">
+    <h2>Work Experience</h2>
+    <h4>Front End Developer / nowhere</h4>
+    <p>No experience, unemployed.</p>
+    <h4>Web Developer / mycompany.com</h4>
+    <p style ="color:green;"> Oct 2013 - Current</p>
+    <p>I am a web developer in my own company, self employed.</p>
+    <h4>Graphic Designer / cccompany.com</h4>
+    <p style ="color:green;"> Dec 2010 - Apr 2012</p>
+    <p>I was a graphic designer in a company called CCCompany.</p>
+    <br>
+    <h2>Education</h2>
+    <h4>High School</h4>
+    <p style ="color:green;"> 2005 - 2008</p>
+    <p>High School Diploma.</p>
+    <h4>Electrical and Computer Engineering University</h4>
+    <p style ="color:green;"> 2009- 2014</p>
+    <p>Master Degree.</p>
+  </div>
+</div>
+<div class="navbar" style="border :solid black 1px">
+  <h3>Find me on social media.</h3>
+  <a href="https://www.facebook.com/">Facebook</a>
+  <a href="https://www.instagram.com/">Instagram</a>
+  <a href="https://www.twitter.com/">Twitter</a>
+</div>
+
+</body>
+</html>
